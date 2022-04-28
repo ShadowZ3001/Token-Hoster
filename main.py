@@ -30,7 +30,7 @@ class Main:
 
     def __init__(self):
         self.tokens = []
-        for line in open("data/tokens.txt"):
+        for line in open("tokens.txt"):
             self.tokens.append(line.replace("\n", ""))
 
     async def join_server(self, token, invite):
